@@ -1,0 +1,98 @@
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: #ffd6e0;
+    margin: 0;
+    padding: 40px;
+}
+
+body {
+    background-image: url(./calculator\ background.avif);
+    background-size: cover;
+}
+
+/* calculator box */
+#calculator {
+    width: 320px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #fffdf5;
+    border: 3px dashed #333;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 45px;
+    font-weight: 1200;
+    letter-spacing: 3px;
+    color: #000;
+   
+}
+
+/* inputs */
+.inputBox {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    font-family: inherit;
+    border: 2px solid #333;
+    box-sizing: border-box;
+}
+
+/* operator buttons */
+#operators {
+    margin: 20px 0;
+}
+
+#operators button {
+    width: 55px;
+    padding: 10px;
+    margin: 0 3px;
+    font-size: 20px;
+    border: 2px solid #333;
+    cursor: pointer;
+}
+
+#add { background-color: #fff176; }
+#sub { background-color: #9fd8ff; }
+#mul { background-color: #b8f0c8; }
+#div { background-color: #ff9fb2; }
+
+#operators button:hover {
+    background-color: #333;
+    color: white;
+}
+
+/* calculate button */
+#calculate {
+    width: 100%;
+    padding: 12px;
+    font-family: inherit;
+    font-size: 18px;
+    color: white;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+}
+
+#calculate:hover {
+    background-color: #e63946;
+}
+
+/* result */
+#output {
+    margin-bottom: 0;
+    padding: 15px;
+    background-color: #fff176;
+    border: 2px solid #333;
+}

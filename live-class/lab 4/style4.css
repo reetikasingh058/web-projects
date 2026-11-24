@@ -1,0 +1,124 @@
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-color: #067ac7;
+    margin: 0;
+    padding: 30px;
+}
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: repeating-linear-gradient(45deg, #a8d4ff, #a8d4ff 20px, #7bb8f0 20px, #7bb8f0 30px);
+}
+
+
+#root {
+    width: 700px;
+    margin: 0 auto;
+}
+
+/* input box looks like a white paper */
+#inpputDiv {
+    background-color: #fffdf5;
+    width: 380px;
+    margin: 0 auto;
+    padding: 20px;
+     border: 3px dashed #d39506;
+     border: 6px ridge #333;   
+   
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+#inpputDiv div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-bottom: 2px solid #333;
+    background-color: transparent;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+/* add button */
+#addTodo {
+    width: 100%;
+    padding: 10px;
+    background-color: #f1b959;
+    color: white;
+    border: none;
+    font-family: inherit;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#addTodo:hover {
+    background-color: #e63946;
+}
+
+/* todo list = sticky notes */
+#listTodo {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#listTodo div {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    margin: 15px;
+    padding: 15px;
+    text-align: left;
+    background-color: #fff176;
+    border:#030303 dashed;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+    transform: rotate(-3deg);
+}
+
+/* every second note is pink and tilted the other way */
+#listTodo div:nth-child(even) {
+    background-color: #ff9fb2;
+    transform: rotate(3deg);
+}
+
+/* every third note is blue */
+#listTodo div:nth-child(3n) {
+    background-color: #9fd8ff;
+}
+
+#listTodo div:hover {
+    transform: rotate(0deg);
+}
+
+#listTodo p {
+    margin: 6px 0;
+}
+
+/* remove button */
+#listTodo button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    font-family: inherit;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+#listTodo button:hover {
+    background-color: #e63946;
+}
